@@ -1,0 +1,7 @@
+->         /v1/posts               v1.post.PostRouter
+GET            /task/list                     controllers.index.list
+GET            /task/delete/:id          controllers.index.delete(id:Int)
+POST           /task/insert                      controllers.index.test()
+PUT            /task/update                      controllers.index.update()
+GET             /task/count                      controllers.index.count
+GET             /task/get/:id                   controllers.index.getid(id:Int)
